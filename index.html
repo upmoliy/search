@@ -1,0 +1,2591 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" href="img/logo no back no back 2.png">
+    <title>upmoliy | بحث</title>
+  </head>
+  <body>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.welcome-header {
+  text-align: center;
+  vertical-align: center;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  max-width: 40000px;
+  margin: 0 auto;
+  padding: 0 5rem;
+ background-color: #232c3b;
+}
+
+nav .logo {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+nav .logo i {
+  color: rgb(255, 255, 255);
+  padding-left: 0.75rem;
+}
+nav .bars-menu {
+  display: none;
+}
+nav .logo h4 {
+  font-family: "Lalezar", cursive;
+}
+
+nav .nav-items {
+  display: flex;
+  list-style-type: none;
+}
+
+nav .nav-items .nav-item {
+  padding: 0 1rem;
+}
+
+nav .nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+nav .nav-link:hover {
+  color: #00CD93;
+}
+
+/* Heor styling */
+.hero {
+    height: 80vh;
+background: url("img/hero\ back.png")  center;
+background-size: cover;
+position: relative;
+
+}
+
+.hero2 {
+    height: 80vh;
+background: #88f1d3 center;
+background-size: cover;
+position: relative;
+
+}
+
+.hero-section {
+  max-width: 1366px;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.hero-section .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section .content h4 {
+  color: #f00404;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .content h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .content p {
+  color: rgb(29, 29, 29);
+  font-size: 1.4rem;
+}
+
+.hero-section .content p span.purple {
+  color: #4b0a8d;
+}
+
+.hero-section form {
+  display: flex;
+}
+.btn {
+  width: 15rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #232c3b;
+}
+
+.btn2 {
+  width: 15rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #00CD93;
+  
+}
+
+
+
+.up-color{
+    color: #00CD93;
+}
+
+
+.btn:hover {
+  background-color: #00CD93;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+/* Features section */
+section.features {
+  padding: 2rem 0;
+  background-color: #ffffff;
+}
+
+section.features .features-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features-section h4 {
+  color: #a01717;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.features-section .qualities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-section .qualities .quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #311b1b;
+  padding: 2rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+}
+
+.features-section .qualities .quality:hover {
+  border: 2px solid #ffffff;
+}
+
+.qualities .quality i {
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.qualities .quality h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.qualities .quality p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4e547e;
+}
+
+/*  Phones section */
+.newest-phones {
+  padding-top: 5rem;
+}
+
+.newest-phones .phones-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.phones-section h4 {
+  color: #000000;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.phones-section .phones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+}
+
+.phones .phone {
+  margin: 2rem 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone img {
+  margin-bottom: 1rem;
+}
+
+.phone img:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.phone h3 {
+  font-size: 1.6rem;
+}
+
+.phones-section button {
+  width: 15rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.hero-image{
+    flex: 1;
+}
+
+.buttonr{
+    border: none;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 18px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5rem;
+    margin-right: 480px;
+    background: #00CD93;
+}
+
+#searchbar{
+	margin-left: 15%;
+	padding:15px;
+	border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+    display: none;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+    color: #000000;
+  
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animals{
+
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1300px) {
+  * {
+    font-size: 85%;
+  }
+  .h22{
+    font-size: 20px;
+  }
+ .logo2{
+    width: 100px;
+ }
+ .h44{
+    font-size: 2px;
+ }
+ .imgabout{
+    margin-left: 450px;
+ }
+ .pabout{
+    font-size: 3px;
+ }
+
+ .buttonr{
+    margin-left: 470px;
+ }
+ .play{
+  font-size: 30px;
+ }
+ .h33{
+  width: 50px;
+  height: 30px;
+ }
+ .h33{
+ }
+ .animals{
+    font-size: 40px;
+ }
+
+}
+
+
+
+
+
+
+@media (max-width: 1175px) {
+  * {
+    font-size: 80%;
+  }
+ 
+}
+
+@media (max-width: 1000px) {
+  * {
+    text-align: center;
+  }
+  .hero img {
+    display: none;
+  }
+
+  .hero-image{
+    display: none;
+}
+
+  .hero-section {
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 50%;
+  }
+  .hero .btn {
+    align-self: center;
+  }
+  .hero .content {
+    margin-top: 2rem;
+  }
+  .features-section .qualities {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.features .features-section {
+    align-items: center;
+  }
+  .phones-section h4 {
+    align-self: center;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero-section .content h1 {
+    font-size: 2rem;
+  }
+  .phones-section {
+    align-items: center;
+  }
+  .phones-section .phones {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 504px) {
+  .phones-section .phones {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  nav .bars-menu {
+    display: block;
+    font-size: 3rem;
+  }
+  nav .nav-items {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #7d22f3;
+    padding: 2rem 0;
+  }
+  nav .nav-items .nav-item {
+    margin: 1rem 0;
+  }
+  nav .nav-items .nav-item a {
+    color: white;
+  }
+  nav .nav-items.active {
+    display: flex;
+  }
+}
+
+
+footer {
+	background-color: #232c3b;
+	color: #fff;
+	padding: 40px 0;
+}
+
+.footer-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.footer-section {
+	flex: 1;
+	margin: 0 20px;
+}
+
+.about h2, .contact h2, .social h2 {
+	margin-bottom: 20px;
+}
+
+.about p, .contact p, .social p {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+.social i {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.footer-bottom {
+	background-color: #1b222e;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer-bottom p {
+	font-size: 14px;
+}
+
+.imgsearch{
+    text-align: center;
+}
+</style>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">
+        <a href="https://upmoliy.netlify.app/"><img src="img/logo no back no back 5.png" width="170px" alt="" class="logo2"></a>
+                <a href="#"><img src="img/logo no back no back.png" width="50px" style="display: none;" class="logo3" alt=""></a>
+      </div>
+      <div class="bars-menu">
+        <i class="fas fa-bars" style="color: #00CD93;"></i>
+      </div>
+      <ul class="nav-items">
+         <li class="nav-item">
+          <a href="search.html" class="nav-link">بحث</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">نبذة عن upmoliy</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="countact.html" class="nav-link">اتصل بنا</a>
+        </li>
+      </ul>
+    </nav>
+   
+
+        <!-- What's New Section -->
+        <section class="newest-phones" id="newest">
+          <div class="phones-section">
+            <h4>ماذا تريد أن تتعلم ؟</h4>
+           
+          <!-- input tag -->
+    <input id="searchbar" onkeyup="search_animal()" type="text"
+      name="search" placeholder="أكتب كلمة البحث ...    ">
+      <br>
+      <br>
+  <!-- ordered list -->
+  <ol id='list'>
+      <a href="" style="color: black;"><li class="animals"><h1>     كورس إنشاء برنامج مدارس باستخدام PHP & Laravel    </h1></li></a>
+      <a href="lara.list/cours2.html" style="color: black;"><li class="animals"><h1>     كورس إنشاء برنامج فواتير باستخدام PHP & Laravel    </h1></li></a>
+      <a href="lara.list/cours3.html" style="color: black;"><li class="animals"><h1>      كورس أساسيات Laravel 9
+           </h1></li></a>
+      <a href="lara.list/cours4.html" style="color: black;"><li class="animals"><h1>    برمجة الويب باستخدام إطار Laravel 5.5     </h1></li></a>
+      <a href="lara.list/cours5.html" style="color: black;"><li class="animals"><h1>   تطوير نظام إدارة محتوى باستخدام Laravel      </h1></li></a>
+      <a href="lara.list/cours6.html" style="color: black;"><li class="animals"><h1>     برمجة الويب باستخدام إطار laravel 5.2    </h1></li></a>
+      <a href="lara.list/cours7.html" style="color: black;"><li class="animals"><h1>     Laravel 5.2 Form scratch
+      </h1></li></a>
+      
+
+    
+
+    <a href="node.list/cours1.html" style="color: black;"><li class="animals"><h1>   إطار Node.JS    </h1></li></a>  
+    <a href="node.list/cours2.html" style="color: black;"><li class="animals"><h1>    Node.js for beginners
+    </h1></li></a>  
+
+
+
+    <a href="sasse.list/cours1.html" style="color: black;"><li class="animals"><h1>    تعلم الـ SASS باللغة العربية 2021
+    </h1></li></a> 
+    <a href="sasse.list/cours2.html" style="color: black;"><li class="animals"><h1>     تعلم لغة Sass
+    </h1></li></a>  
+    <a href="sasse.list/cours3.html" style="color: black;"><li class="animals"><h1>      تصميم موقع بواسطة Sass
+    </h1></li></a>  
+
+
+    <a href="Docker.list/cours1.html" style="color: black;"><li class="animals"><h1>     تعلم Docker من البداية للأحتراف
+    </h1></li></a> 
+    <a href="Docker.list/cours2.html" style="color: black;"><li class="animals"><h1>    تعلم Docker للمبتدئين
+    </h1></li></a>  
+    <a href="Docker.list/cours3.html" style="color: black;"><li class="animals"><h1>    تعلم Docker من الصفر إلى الاحتراف
+    </h1></li></a> 
+    <a href="Docker.list/cours4.html" style="color: black;"><li class="animals"><h1>      تعلم Docker من البداية إلى الاحتراف
+    </h1></li></a> 
+    <a href="Docker.list/cours5.html" style="color: black;"><li class="animals"><h1>    تعلم Docker من الصفر
+    </h1></li></a>  
+
+
+
+    <a href="ios.list/cours1.html" style="color: black;"><li class="animals"><h1>   برمجه تطبيقات الموبايل باستخدام فلاتر
+    </h1></li></a>  
+    <a href="ios.list/cours2.html" style="color: black;"><li class="animals"><h1>  البرمجة بلغة Swift
+    </h1></li></a>  
+    <a href="ios.list/cours3.html" style="color: black;"><li class="animals"><h1>  iOS Development with Swift
+    </h1></li></a>  
+
+
+
+    <a href="ios.list/cours1.html" style="color: black;"><li class="animals"><h1>  برمجه تطبيقات الموبايل باستخدام فلاتر
+
+    </h1></li></a> 
+    <a href="andrwid.list/cours1.html" style="color: black;"><li class="animals"><h1>  برمجة تطبيقات الأندرويد من الصفر إلى الأحتراف
+
+    </h1></li></a>  <a href="andrwid.list/cours2.html" style="color: black;"><li class="animals"><h1>  برمجة تطبيقات الأندرويد
+
+    </h1></li></a>   <a href="andrwid.list/cours3.html" style="color: black;"><li class="animals"><h1>  Android SQLite Database
+
+    </h1></li></a> <a href="andrwid.list/cours4.html" style="color: black;"><li class="animals"><h1>  برمجة الاندوريد على بيئة Android Studio
+
+    </h1></li></a>   <a href="andrwid.list/cours5.html" style="color: black;"><li class="animals"><h1>  Android101
+
+    </h1></li></a>   <a href="andrwid.list/cours6.html" style="color: black;"><li class="animals"><h1>  برمجة تطبيقات الاندرويد
+
+    </h1></li></a> 
+
+
+
+
+    <a href="arduino.list/cours1.html" style="color: black;"><li class="animals"><h1> أساسيات برمجة الاردوينو Arduino
+    
+    </h1></li></a> 
+    <a href="arduino.list/cours2.html" style="color: black;"><li class="animals"><h1>    الآردوينو - Arduino
+ 
+    </h1></li></a>   <a href="arduino.list/cours3.html" style="color: black;"><li class="animals"><h1>     Arduino
+    </h1></li></a>  <a href="arduino.list/cours4.html" style="color: black;"><li class="animals"><h1>     أردوينو خطوة بخطوة
+
+    </h1></li></a>  
+
+
+
+  </h1></li></a>  <a href="bootstrap.list/cours1.html" style="color: black;"><li class="animals"><h1>    التصميم باستخدام إطار Bootstrap 4
+ 
+
+  </h1></li></a>  
+</h1></li></a> <a href="bootstrap.list/cours2.html" style="color: black;"><li class="animals"><h1>     التصميم بواسطة Bootstrap 4
+
+
+</h1></li></a>  </h1></li></a>    <a href="bootstrap.list/cours3.html" style="color: black;"><li class="animals"><h1>   التصميم بواسطة Bootstrap 3
+  
+
+</h1></li></a>  
+
+
+</h1></li></a>   </h1></li></a>   <a href="c/cours1.html" style="color: black;"><li class="animals"><h1>    Programing C
+
+  
+
+</h1></li></a>  </h1></li></a>   </h1></li></a>    <a href="c/cours2.html" style="color: black;"><li class="animals"><h1>   البرمجة بلغة C مستوى متوسط
+ 
+  
+
+</h1></li></a>  
+
+
+
+
+</h1></li></a>  </h1></li></a>   </h1></li></a>   <a href="css.list/cours1.html" style="color: black;"><li class="animals"><h1>   تعلم لغة CSS
+
+ 
+  
+
+</h1></li></a> 
+
+</h1></li></a>  </h1></li></a>   </h1></li></a>   <a href="css.list/cours2.html" style="color: black;"><li class="animals"><h1>   دورة كاملة لتعلم الاصدار الثالث من لغة CSS
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>   <a href="css.list/cours4.html" style="color: black;"><li class="animals"><h1>   تصميم موقع ويب مستجيب بدون إطار عمل
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>   <a href="css.list/cours6.html" style="color: black;"><li class="animals"><h1>   Cascading Style Sheets
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a> <a href="css.list/cours7.html" style="color: black;"><li class="animals"><h1>   تصميم و برمجة موقع بيع اون لاين
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>  <a href="css.list/cours8.html" style="color: black;"><li class="animals"><h1>   أساسيات لغة CSS
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>  <a href="css.list/cours9.html" style="color: black;"><li class="animals"><h1>   تصميم و برمجة موقع eCommerce
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>  <a href="css.list/cours11.html" style="color: black;"><li class="animals"><h1>   دورة برمجة سكربت مدونة
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a> <a href="css.list/cours12.html" style="color: black;"><li class="animals"><h1>   إنشاء موقع إلكتروني المستوى الثاني
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a> <a href="css.list/cours13.html" style="color: black;"><li class="animals"><h1>   إنشاء موقع إلكتروني المستوى الأول
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>  <a href="css.list/cours14.html" style="color: black;"><li class="animals"><h1>   لغة CSS3 لتصميم صفحات الويب
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a> <a href="css.list/cours15.html" style="color: black;"><li class="animals"><h1>   أساسيات لغة CSS لتصميم صفحات الويب
+
+ 
+  
+
+</h1></li></a> </h1></li></a>  </h1></li></a>   </h1></li></a>   <a href="css.list/cours16.html" style="color: black;"><li class="animals"><h1>   البرمجة بلغة CSS
+
+ 
+  
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+</h1></li></a>   <a href="html.list/cours1.html" style="color: black;"><li class="animals"><h1>   تعلم لغة HTML
+  
+
+</h1></li></a>
+</h1></li></a>   <a href="html.list/cours2.html" style="color: black;"><li class="animals"><h1>     دورة كاملة لتعلم لغة HTML
+
+
+</h1></li></a></h1></li></a> <a href="html.list/cours3.html" style="color: black;"><li class="animals"><h1>     برمجة صفحات الويب بلغة HTML
+
+
+</h1></li></a></h1></li></a>   <a href="html.list/cours5.html" style="color: black;"><li class="animals"><h1>     أساسيات لغة HTML
+
+
+</h1></li></a></h1></li></a> <a href="html.list/cours6.html" style="color: black;"><li class="animals"><h1>     تصميم وتكويد المواقع الإلكترونية
+
+
+</h1></li></a></h1></li></a>  <a href="html.list/cours7.html" style="color: black;"><li class="animals"><h1>     البرمجة بلغة HTML بشكل مبسط
+
+
+</h1></li></a></h1></li></a>  <a href="html.list/cours11.html" style="color: black;"><li class="animals"><h1>  إنشاء صفحات الويب بلغة HTML5
+   
+
+</h1></li></a></h1></li></a><a href="html.list/cours12.html" style="color: black;"><li class="animals"><h1>     أساسيات إنشاء صفحات الويب بلغة HTML
+
+
+</h1></li></a>
+
+
+
+
+
+
+</h1></li></a></h1></li></a> <a href="c++.list/cours1.html" style="color: black;"><li class="animals"><h1>   البرمجة الكائنية OOP بلغة C++
+
+
+
+</h1></li></a>
+</h1></li></a></h1></li></a>  <a href="c++.list/cours2.html" style="color: black;"><li class="animals"><h1>   أساسيات البرمجة بلغة C++
+
+
+
+</h1></li></a></h1></li></a></h1></li></a><a href="c++.list/cours3.html" style="color: black;"><li class="animals"><h1>   تعلم البرمجة بلغة ++C
+
+
+
+</h1></li></a></h1></li></a></h1></li></a>   <a href="c++.list/cours4.html" style="color: black;"><li class="animals"><h1>   تعلم C & C++
+
+
+
+</h1></li></a></h1></li></a></h1></li></a>   <a href="c++.list/cours5.html" style="color: black;"><li class="animals"><h1>   تراكيب البيانات باستخدام C++
+
+
+
+</h1></li></a></h1></li></a></h1></li></a> <a href="c++.list/cours6.html" style="color: black;"><li class="animals"><h1>   البرمجة الكينونية بلغة C++
+
+
+
+</h1></li></a></h1></li></a></h1></li></a>   <a href="c++.list/cours7.html" style="color: black;"><li class="animals"><h1>   اساسيات لغة الـ C++
+
+
+
+</h1></li></a></h1></li></a></h1></li></a>  
+
+<a href="c++.list/cours8.html" style="color: black;"><li class="animals"><h1>   البرمجة بلغة سي بلس بلس
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+<a href="java.list/cours1.html" style="color: black;"><li class="animals"><h1>    البرمجة بلغة JAVA (المستوى الرابع)
+ 
+
+
+
+</h1></li></a>
+
+<a href="java.list/cours2.html" style="color: black;"><li class="animals"><h1>     البرمجة بلغة JAVA (المستوى الثالث)
+
+
+
+
+</h1></li></a><a href="java.list/cours3.html" style="color: black;"><li class="animals"><h1>     البرمجة بلغة JAVA (المستوى الثاني)
+
+
+
+
+</h1></li></a><a href="java.list/cours4.html" style="color: black;"><li class="animals"><h1>     البرمجة بلغة JAVA (المستوى الأول)
+
+
+
+
+</h1></li></a><a href="java.list/cours5.html" style="color: black;"><li class="animals"><h1>     ​أساسيات لغة جافا
+
+
+
+
+</h1></li></a><a href="java.list/cours6.html" style="color: black;"><li class="animals"><h1>     البرمجة بلغة Java من الصفر إلى الأحتراف
+
+
+
+
+</h1></li></a><a href="java.list/cours7.html" style="color: black;"><li class="animals"><h1>     جافا ابلت - JAVA Applet
+
+
+
+
+</h1></li></a><a href="java.list/cours8.html" style="color: black;"><li class="animals"><h1>     جافا الواجهات الرسومية - JAVA Swing GUI
+
+
+
+
+</h1></li></a><a href="java.list/cours9.html" style="color: black;"><li class="animals"><h1>     JAVA JDBC DataBases
+
+
+
+
+</h1></li></a><a href="java.list/cours10.html" style="color: black;"><li class="animals"><h1>     برمجة الشبكات بلغة الجافا
+
+
+
+
+</h1></li></a><a href="java.list/cours11.html" style="color: black;"><li class="animals"><h1>     تطوير الواجهات باستخدام JAVA FX
+
+
+
+
+</h1></li></a><a href="java.list/cours12.html" style="color: black;"><li class="animals"><h1>     JAVA Advanced
+
+
+
+
+</h1></li></a><a href="java.list/cours13.html" style="color: black;"><li class="animals"><h1>     JAVA basic to OOP
+
+
+
+
+</h1></li></a><a href="java.list/cours14.html" style="color: black;"><li class="animals"><h1>     Java 104
+
+
+
+
+</h1></li></a><a href="java.list/cours15.html" style="color: black;"><li class="animals"><h1>     Java 103
+
+
+
+
+</h1></li></a><a href="java.list/cours16.html" style="color: black;"><li class="animals"><h1>    Java 102
+ 
+
+
+
+</h1></li></a><a href="java.list/cours17.html" style="color: black;"><li class="animals"><h1>     Java 101
+
+
+
+
+</h1></li></a><a href="java.list/cours18.html" style="color: black;"><li class="animals"><h1>     أساسيات البرمجة بلغة الجافا
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+<a href="javascript.list/cours1.html" style="color: black;"><li class="animals"><h1>     تعلم الـ JavaScript بالعربية 2021
+
+
+
+
+
+</h1></li></a>
+<a href="javascript.list/cours2.html" style="color: black;"><li class="animals"><h1>     دورة كاملة لتعلم لغة الجافا سكربت
+
+
+
+
+
+</h1></li></a><a href="javascript.list/cours3.html" style="color: black;"><li class="animals"><h1>     اطار عمل Vue.js
+
+
+
+
+
+</h1></li></a><a href="javascript.list/cours5.html" style="color: black;"><li class="animals"><h1>     التعامل مع HTML DOM باستخدام Javascript
+
+
+
+
+
+
+</h1></li></a><a href="javascript.list/cours6.html" style="color: black;"><li class="animals"><h1>     Javascript Bom
+
+
+
+
+
+
+
+</h1></li></a><a href="javascript.list/cours7.html" style="color: black;"><li class="animals"><h1>    Javascript Programming
+
+ 
+
+
+
+
+</h1></li></a><a href="javascript.list/cours8.html" style="color: black;"><li class="animals"><h1>     البرمجة بلغة JavaScript
+
+
+
+
+
+</h1></li></a><a href="javascript.list/cours9.html" style="color: black;"><li class="animals"><h1>   البرمجة بلغة الجافا سكريبت
+  
+
+
+
+
+</h1></li></a><a href="javascript.list/cours11.html" style="color: black;"><li class="animals"><h1>    اساسيات الجافا سكريبت
+ 
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+<a href="jquery.list/cours1.html" style="color: black;"><li class="animals"><h1>      دورة كاملة لتعلم الجي كويري
+
+ 
+</h1></li></a>
+<a href="jquery.list/cours4.html" style="color: black;"><li class="animals"><h1>      البرمجة بمكتبة jQuery بإحترافية
+
+ 
+</h1></li></a><a href="jquery.list/cours5.html" style="color: black;"><li class="animals"><h1>      البرمجة بمكتبة JQuery
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="Kotlin.list/cours1.html" style="color: black;"><li class="animals"><h1>  أساسيات كوتلن
+    
+
+ 
+</h1></li></a>
+<a href="Kotlin.list/cours2.html" style="color: black;"><li class="animals"><h1>      دورة كوتلن متقدم
+
+
+ 
+</h1></li></a><a href="Kotlin.list/cours3.html" style="color: black;"><li class="animals"><h1>      برمجة تطبيقات الأندرويد بالكوتلن من الصفر
+
+
+ 
+</h1></li></a><a href="Kotlin.list/cours4.html" style="color: black;"><li class="animals"><h1>  البرمجة بلغة Kotlin
+    
+
+ 
+</h1></li></a><a href="Kotlin.list/cours5.html" style="color: black;"><li class="animals"><h1>      برمجة تطبيقات الاندرويد بلغة Kotlin
+
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="c+chard.list/cours1.html" style="color: black;"><li class="animals"><h1>      البرمجة الكائنية OOP بلغة C#
+
+
+
+ 
+</h1></li></a>
+
+<a href="c+chard.list/cours2.html" style="color: black;"><li class="animals"><h1>      أساسيات البرمجة بلغة C#
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours3.html" style="color: black;"><li class="animals"><h1>      C# for Beginners
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours4.html" style="color: black;"><li class="animals"><h1>      سي شارب من البداية الى الاحتراف
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours5.html" style="color: black;"><li class="animals"><h1>      السي شارب من البداية إلى البرمجة الكائنية التوجه
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours6.html" style="color: black;"><li class="animals"><h1>    C# Foundation
+  
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours7.html" style="color: black;"><li class="animals"><h1>      طور مستواك في السي شارب
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours8.html" style="color: black;"><li class="animals"><h1>      مشروع إدارة المبيعات بلغة سي شارب و SQL Server
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours9.html" style="color: black;"><li class="animals"><h1>      C# Basic to OOP
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours10.html" style="color: black;"><li class="animals"><h1>      البرمجة بلغة سي شارب من الصفر إلى الأحتراف
+
+
+
+ 
+</h1></li></a><a href="c+chard.list/cours11.html" style="color: black;"><li class="animals"><h1>     اساسيات السي شارب
+ 
+
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="php.list/cours1.html" style="color: black;"><li class="animals"><h1>  كورس php من البداية إلى الاحتراف
+    
+ 
+</h1></li></a>
+<a href="php.list/cours2.html" style="color: black;"><li class="animals"><h1>     البرمجة الكائنية بلغة PHP
+ 
+ 
+</h1></li></a><a href="php.list/cours3.html" style="color: black;"><li class="animals"><h1>      البرمجة الكائنية بلغة PHP
+
+ 
+</h1></li></a><a href="php.list/cours4.html" style="color: black;"><li class="animals"><h1>   PHP and MYSQL (OOP)
+   
+ 
+</h1></li></a><a href="php.list/cours5.html" style="color: black;"><li class="animals"><h1>      البرمجة بلغة PHP5 and MySQL من الصفر
+
+ 
+</h1></li></a><a href="php.list/cours6.html" style="color: black;"><li class="animals"><h1>      PHP 5.6 and MySQL 5.7
+
+ 
+</h1></li></a><a href="php.list/cours7.html" style="color: black;"><li class="animals"><h1>    PHP Data Objects (PDO)
+  
+ 
+</h1></li></a><a href="php.list/cours8.html" style="color: black;"><li class="animals"><h1>      PHP For Beginners
+
+ 
+</h1></li></a><a href="php.list/cours9.html" style="color: black;"><li class="animals"><h1>      PHP 101
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="Python.list/cours1.html" style="color: black;"><li class="animals"><h1>         تطوير المواقع باستخدام إطار عمل Django
+
+
+ 
+</h1></li></a>
+<a href="Python.list/cours2.html" style="color: black;"><li class="animals"><h1>      البرمجة بلغة Python (المستوى الرابع)
+   
+
+ 
+</h1></li></a><a href="Python.list/cours3.html" style="color: black;"><li class="animals"><h1>      البرمجة بلغة Python (المستوى الثالث)
+   
+
+ 
+</h1></li></a><a href="Python.list/cours4.html" style="color: black;"><li class="animals"><h1>         البرمجة بلغة Python (المستوى الثاني)
+
+
+ 
+</h1></li></a><a href="Python.list/cours5.html" style="color: black;"><li class="animals"><h1>       البرمجة بلغة Python (المستوى الأول)
+  
+
+ 
+</h1></li></a><a href="Python.list/cours6.html" style="color: black;"><li class="animals"><h1>   إتقان لغة Python باللغة العربية
+      
+
+ 
+</h1></li></a><a href="Python.list/cours7.html" style="color: black;"><li class="animals"><h1>        دورة البايثون من الصفر
+ 
+
+ 
+</h1></li></a><a href="Python.list/cours8.html" style="color: black;"><li class="animals"><h1> أساسيات البرمجة بلغة البايثون
+        
+
+ 
+</h1></li></a><a href="Python.list/cours9.html" style="color: black;"><li class="animals"><h1>         Python Security
+
+
+ 
+</h1></li></a><a href="Python.list/cours10.html" style="color: black;"><li class="animals"><h1>         البرمجة بلغة Python
+
+
+ 
+</h1></li></a><a href="Python.list/cours11.html" style="color: black;"><li class="animals"><h1>     Python Network Packet Sniffer
+    
+
+ 
+</h1></li></a><a href="Python.list/cours12.html" style="color: black;"><li class="animals"><h1>        Python Website Scanner
+ 
+
+ 
+</h1></li></a><a href="Python.list/cours13.html" style="color: black;"><li class="animals"><h1> Python Reverse Shell
+        
+
+ 
+</h1></li></a><a href="Python.list/cours14.html" style="color: black;"><li class="animals"><h1>  Python Django Web
+       
+
+ 
+
+
+ 
+</h1></li></a><a href="Python.list/cours16.html" style="color: black;"><li class="animals"><h1>      برمجة الشبكات بلغة بايثون
+   
+
+ 
+</h1></li></a><a href="Python.list/cours15.html" style="color: black;"><li class="animals"><h1>      تطوير تطبيقات سطح المكتب بلغة الـ Python مع QT
+
+   
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Ruby.list/cours1.html" style="color: black;"><li class="animals"><h1>  برمجة تطبيقات الويب Ruby on Rails
+   
+
+   
+
+ 
+</h1></li></a>
+
+
+<a href="Ruby.list/cours2.html" style="color: black;"><li class="animals"><h1>     Ruby Programming Language
+
+
+   
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="V.B.NET.list/cours1.html" style="color: black;"><li class="animals"><h1>     تصميم نظام مبيعات متكامل باستخدام V.B.NET
+
+
+
+   
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Photoshop.list/cours1.html" style="color: black;"><li class="animals"><h1>     التصميم التجاري والإعلاني
+
+</h1></li></a>
+<a href="Photoshop.list/cours2.html" style="color: black;"><li class="animals"><h1>     احترف برنامج الفوتوشوب Photosop CS6
+
+</h1></li></a><a href="Photoshop.list/cours3.html" style="color: black;"><li class="animals"><h1>  دورة متكاملة في تعليم برنامج الفوتوشوب 2020
+   
+</h1></li></a><a href="Photoshop.list/cours4.html" style="color: black;"><li class="animals"><h1>  الفوتوشوب في 30 ثانية cc 2014
+   
+</h1></li></a><a href="Photoshop.list/cours5.html" style="color: black;"><li class="animals"><h1>     فوتوشوب Photoshop CS6 للمبتدئين
+
+</h1></li></a><a href="Photoshop.list/cours6.html" style="color: black;"><li class="animals"><h1>     تصميم موقع متعدد الصفحات باستخدام فوتوشوب cc 2017
+
+</h1></li></a><a href="Photoshop.list/cours8.html" style="color: black;"><li class="animals"><h1>  أحتراف برنامج فوتوشوب PhotoShop CC
+   
+</h1></li></a><a href="Photoshop.list/cours9.html" style="color: black;"><li class="animals"><h1>     تصميم وتكويد المواقع الإلكترونية
+
+</h1></li></a><a href="Photoshop.list/cours10.html" style="color: black;"><li class="animals"><h1>     الفوتوشوب خطوة بخطوة للمبتدئين
+
+</h1></li></a><a href="Photoshop.list/cours11.html" style="color: black;"><li class="animals"><h1>     برنامج فوتوشوب CS6
+
+</h1></li></a><a href="Photoshop.list/cours12.html" style="color: black;"><li class="animals"><h1>     تصميم موقع إنترنت متجاوب بالنظام الشبكي
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Illustrator.list/cours1.html" style="color: black;"><li class="animals"><h1>    دورة فن تصميم الإنفوجرافيك
+ 
+
+</h1></li></a>
+<a href="Illustrator.list/cours2.html" style="color: black;"><li class="animals"><h1>     دورة أدوبي اليستريتور
+
+
+</h1></li></a><a href="Illustrator.list/cours3.html" style="color: black;"><li class="animals"><h1>    تعليم برنامج ادوبي اليستريتور من البداية حتي الاحتراف
+ 
+
+</h1></li></a><a href="Illustrator.list/cours4.html" style="color: black;"><li class="animals"><h1>     التصميم التجاري والإعلاني
+
+
+</h1></li></a><a href="Illustrator.list/cours5.html" style="color: black;"><li class="animals"><h1>برنامج Illustrator CC2015
+     
+
+</h1></li></a><a href="Illustrator.list/cours6.html" style="color: black;"><li class="animals"><h1>     Illustrator CC المستوى المتقدم
+
+
+</h1></li></a><a href="Illustrator.list/cours7.html" style="color: black;"><li class="animals"><h1>     Illustrator CC المستوى المتوسط
+
+
+</h1></li></a><a href="Illustrator.list/cours8.html" style="color: black;"><li class="animals"><h1>     Illustrator CC المستوى الأساسي
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Adobe Flash.list/cours1.html" style="color: black;"><li class="animals"><h1>    ActionScript 3.0
+
+
+
+</h1></li></a>
+
+<a href="Adobe Flash.list/cours2.html" style="color: black;"><li class="animals"><h1>  Flash CS3 Action script 2
+  
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="Adobe Captivate/cours1.html" style="color: black;"><li class="animals"><h1>  Adobe Captivate 8
+
+  
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+<a href="After Effects/cours1.html" style="color: black;"><li class="animals"><h1>   بدايتك في الموشن جرافيك
+
+
+</h1></li></a>
+<a href="After Effects/cours2.html" style="color: black;"><li class="animals"><h1> After Effects Essential
+  
+
+</h1></li></a><a href="After Effects/cours3.html" style="color: black;"><li class="animals"><h1>   After Effects CS5
+
+
+</h1></li></a><a href="After Effects/cours4.html" style="color: black;"><li class="animals"><h1>   أحترف برنامج AFTER EFFECT CC and CS
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+<a href="InDesign/cours1.html" style="color: black;"><li class="animals"><h1>     أسرار وتقنيات انديزاين
+
+
+
+</h1></li></a><a href="InDesign/cours2.html" style="color: black;"><li class="animals"><h1>  ادوبي انديزاين ( المستوى الأساسي - المتوسط )
+   
+
+
+</h1></li></a><a href="InDesign/cours3.html" style="color: black;"><li class="animals"><h1>  InDesign المستوى المتقدم
+   
+
+
+</h1></li></a><a href="InDesign/cours4.html" style="color: black;"><li class="animals"><h1>     برنامج ادوبي انديزين Adobe InDesign CC 2015
+
+
+
+</h1></li></a><a href="InDesign/cours5.html" style="color: black;"><li class="animals"><h1>     برنامج إن ديزين CS5
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Premiere pro.list/cours1.html" style="color: black;"><li class="animals"><h1>    احترف برنامج Adobe Premiere Pro CS5
+
+
+
+
+</h1></li></a><a href="Premiere pro.list/cours2.html" style="color: black;"><li class="animals"><h1>     أساسيات المونتاج والأخراج ببرنامج Premiere Pro
+
+
+
+
+</h1></li></a><a href="Premiere pro.list/cours3.html" style="color: black;"><li class="animals"><h1>    أساسيات أدوبي بريمير للمبتدئين
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="اللغة الإنجليزية.list/cours1.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى التاسع
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours2.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى الثامن
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours3.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى السابع
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours4.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى السادس
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours5.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى الخامس
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours6.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى الرابع
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours7.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى الثالث
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours8.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى الثاني
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours9.html" style="color: black;"><li class="animals"><h1>    تعلم اللغة الإنجليزية (كأنك في معهد) - المستوى الأول
+ 
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours10.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الإنجليزية
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours11.html" style="color: black;"><li class="animals"><h1>     English Conversation
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours12.html" style="color: black;"><li class="animals"><h1>     اختبار التوفل - TOEFL
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours13.html" style="color: black;"><li class="animals"><h1>     اللغة الانكليزية من البداية الى القدرة على المحادثة
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours14.html" style="color: black;"><li class="animals"><h1>     English Grammar
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours15.html" style="color: black;"><li class="animals"><h1>     Communication Skills
+
+
+</h1></li></a>
+<a href="اللغة الإنجليزية.list/cours16.html" style="color: black;"><li class="animals"><h1>     English Grammar
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="اللغة الألمانية.list/cours1.html" style="color: black;"><li class="animals"><h1>     تعلم اللغة الألمانية
+
+
+
+</h1></li></a>
+<a href="اللغة الألمانية.list/cours2.html" style="color: black;"><li class="animals"><h1> اللغة الألمانية للمبتدئين
+    
+
+
+</h1></li></a><a href="اللغة الألمانية.list/cours3.html" style="color: black;"><li class="animals"><h1>     اللغة الألمانية المستوى الثاني
+
+
+
+</h1></li></a><a href="اللغة الألمانية.list/cours4.html" style="color: black;"><li class="animals"><h1>     اللغة الألمانية المستوى الأول
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="اللغة الفرنسية.list/cours1.html" style="color: black;"><li class="animals"><h1>     اللغة الفرنسية للمبتدئين
+
+
+
+
+</h1></li></a><a href="اللغة الفرنسية.list/cours2.html" style="color: black;"><li class="animals"><h1>    اللغة الفرنسية
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+<a href="اللغة الروسية.list/cours1.html" style="color: black;"><li class="animals"><h1>    تعلم اللغة الروسية
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="اللغة التركية.list/cours1.html" style="color: black;"><li class="animals"><h1>     اللغة التركية لغير الناطقين بها - المستوى الأول
+
+
+</h1></li></a>
+<a href="اللغة التركية.list/cours2.html" style="color: black;"><li class="animals"><h1>   اللغة التركية - المستوى الثاني
+  
+
+</h1></li></a><a href="اللغة التركية.list/cours3.html" style="color: black;"><li class="animals"><h1>     اللغة التركية وفق منهاج اسطنبول - المستوى الثاني
+
+
+</h1></li></a><a href="اللغة التركية.list/cours4.html" style="color: black;"><li class="animals"><h1>     اللغة التركية - المستوى الاول
+
+
+</h1></li></a><a href="اللغة التركية.list/cours5.html" style="color: black;"><li class="animals"><h1>     اللغة التركية وفق منهاج اسطنبول - المستوى الأول
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Oracle.list/cours1.html" style="color: black;"><li class="animals"><h1>    أوراكل 10g
+ 
+
+
+</h1></li></a>
+<a href="Oracle.list/cours2.html" style="color: black;"><li class="animals"><h1>    Oracle 11g
+ 
+
+
+</h1></li></a><a href="Oracle.list/cours3.html" style="color: black;"><li class="animals"><h1>    Oracle Database SQL and PL/SQL
+ 
+
+
+</h1></li></a><a href="Oracle.list/cours4.html" style="color: black;"><li class="animals"><h1>     Oracle Developer g11
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="SQL.list/cours1.html" style="color: black;"><li class="animals"><h1>      Sql Server 2008
+
+</h1></li></a>
+<a href="SQL.list/cours2.html" style="color: black;"><li class="animals"><h1>      مشروع إدارة المبيعات بلغة سي شارب و SQL Server
+
+</h1></li></a><a href="SQL.list/cours3.html" style="color: black;"><li class="animals"><h1>  قواعد البيانات في الـASP.NET للمبتدئين
+    
+</h1></li></a><a href="SQL.list/cours4.html" style="color: black;"><li class="animals"><h1>      SQL Database
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="MySQL.list/cours1.html" style="color: black;"><li class="animals"><h1>  التعامل مع MySQL
+ 
+
+</h1></li></a><a href="MySQL.list/cours2.html" style="color: black;"><li class="animals"><h1>      MYSQL 101
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+<a href="Metasploit.list/cours1.html" style="color: black;"><li class="animals"><h1>     Metasploit for Network Security
+
+
+
+</h1></li></a>
+
+<a href="Metasploit.list/cours2.html" style="color: black;"><li class="animals"><h1>     إستخدام مشروع Metasploit
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+<a href="CEH.list/cours1.html" style="color: black;"><li class="animals"><h1>   Professional Ethical Hacker
+ 
+</h1></li></a>
+<a href="CEH.list/cours2.html" style="color: black;"><li class="animals"><h1>    CEH v9
+
+</h1></li></a><a href="CEH.list/cours3.html" style="color: black;"><li class="animals"><h1>    الأختراق الأخلاقي من الصفر
+
+</h1></li></a><a href="CEH.list/cours4.html" style="color: black;"><li class="animals"><h1>    Ethical Hacking
+
+</h1></li></a><a href="CEH.list/cours5.html" style="color: black;"><li class="animals"><h1>    CEH V7 الهاكر الأخلاقي
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="أمن شبكات.list/cours1.html" style="color: black;"><li class="animals"><h1>    Nmap for Beginners
+
+ 
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="أمن تطبيقات الويب.list/cours1.html" style="color: black;"><li class="animals"><h1>     اختبار اختراق تطبيقات الويب
+
+
+ 
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="التسويق.list/cours1.html" style="color: black;"><li class="animals"><h1>     التسويق والإعلان على يوتيوب 2019
+
+
+</h1></li></a>
+<a href="التسويق.list/cours2.html" style="color: black;"><li class="animals"><h1>     التسويق والإعلان على تويتر 2019
+
+
+</h1></li></a><a href="التسويق.list/cours3.html" style="color: black;"><li class="animals"><h1>     التسويق والإعلان على لينكيدإن 2019
+
+
+</h1></li></a><a href="التسويق.list/cours4.html" style="color: black;"><li class="animals"><h1>  التسويق والإعلان على إنستجرام 2019
+   
+
+</h1></li></a><a href="التسويق.list/cours5.html" style="color: black;"><li class="animals"><h1>     مبادئ التسويق والإعلان على فيسبوك 2019
+
+
+</h1></li></a><a href="التسويق.list/cours6.html" style="color: black;"><li class="animals"><h1>   أساسيات التسويق الرقمي
+  
+
+</h1></li></a>
+
+<a href="التسويق.list/cours7.html" style="color: black;"><li class="animals"><h1>   التسويق الإلكتروني
+
+  
+
+</h1></li></a><a href="التسويق.list/cours8.html" style="color: black;"><li class="animals"><h1>   التسويق الإلكتروني
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="إدارة المواد.list/" style="color: black;"><li class="animals"><h1>   إدارة المواد ( الشراء والتخزين )
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="المحاسبة.list/cours1.html" style="color: black;"><li class="animals"><h1>  مبادئ المحاسبة 102
+
+
+</h1></li></a>
+<a href="المحاسبة.list/cours2.html" style="color: black;"><li class="animals"><h1>  مبادئ المحاسبة 101
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="إدارة الأعمال.list/cours1.html" style="color: black;"><li class="animals"><h1>  مبادئ ادارة الأعمال
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="المهارات الشخصية.list/cours1.html" style="color: black;"><li class="animals"><h1>  دورة مهارة تحليل الشخصيات
+
+
+</h1></li></a><a href="المهارات الشخصية.list/cours2.html" style="color: black;"><li class="animals"><h1>  مهارات التدريس
+
+
+</h1></li></a><a href="المهارات الشخصية.list/cours3.html" style="color: black;"><li class="animals"><h1> التفكير الإيجابي
+ 
+
+</h1></li></a><a href="المهارات الشخصية.list/cours4.html" style="color: black;"><li class="animals"><h1>  مهارات ادارة الوقت
+
+
+</h1></li></a><a href="المهارات الشخصية.list/cours5.html" style="color: black;"><li class="animals"><h1>  مراحل الإقناع
+
+
+</h1></li></a><a href="المهارات الشخصية.list/cours6.html" style="color: black;"><li class="animals"><h1>  القدرات القيادية
+
+
+</h1></li></a><a href="المهارات الشخصية.list/cours7.html" style="color: black;"><li class="animals"><h1>  متاهات الذاكرة
+
+
+</h1></li></a><a href="المهارات الشخصية.list/cours8.html" style="color: black;"><li class="animals"><h1>  مهارات التواصل
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+<a href="فيزياء.list/cours1.html" style="color: black;"><li class="animals"><h1> الكهرباء والمغناطيس
+
+
+
+</h1></li></a>
+
+<a href="فيزياء.list/cours2.html" style="color: black;"><li class="animals"><h1> الميكانيك التقليدي
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="Calculus.list/cours1.html" style="color: black;"><li class="animals"><h1>    تفاضل وتكامل متقدم Calculus Advanced
+
+</h1></li></a>
+<a href="Calculus.list/cours2.html" style="color: black;"><li class="animals"><h1>   التفاضل (متعدد المتغيرات)
+ 
+</h1></li></a><a href="Calculus.list/cours3.html" style="color: black;"><li class="animals"><h1>    حساب التفاضل والتكامل ( 3 ) - 203 ريض
+
+</h1></li></a><a href="Calculus.list/cours4.html" style="color: black;"><li class="animals"><h1>   حساب تفاضل و تكامل (2) - 202 ريض
+ 
+</h1></li></a><a href="Calculus.list/cours5.html" style="color: black;"><li class="animals"><h1>  حساب التفاضل والتكامل (1) - 101 ريض
+  
+</h1></li></a><a href="Calculus.list/cours6.html" style="color: black;"><li class="animals"><h1>    Calculus
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="ICDL.list/cours1.html" style="color: black;"><li class="animals"><h1>   الرخصة الدولية لقيادة الحاسوب الإصدار الخامس
+
+
+</h1></li></a>
+
+<a href="ICDL.list/cours2.html" style="color: black;"><li class="animals"><h1>   الرخصة الدولية لقيادة الحاسوب ICDL
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="Algebra.list/cours1.html" style="color: black;"><li class="animals"><h1>   شرح مادة الجبر الخطي (1)
+
+
+</h1></li></a><a href="Algebra.list/cours2.html" style="color: black;"><li class="animals"><h1>   algebra
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="البرامج المكتبية.list/cours1.html" style="color: black;"><li class="animals"><h1>   Microsoft PowerPoint 2016
+  
+
+
+</h1></li></a>
+
+<a href="البرامج المكتبية.list/cours2.html" style="color: black;"><li class="animals"><h1>     اكسل 2013 من البداية للإحتراف
+
+
+
+</h1></li></a>
+<a href="البرامج المكتبية.list/" style="color: black;"><li class="animals"><h1>     احتراف برنامج الإكسل Microsoft Excel
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="المنطق الرقمي.list/cours1.html" style="color: black;"><li class="animals"><h1>    CS221: Digital Design
+
+</h1></li></a>
+<a href="المنطق الرقمي.list/cours2.html" style="color: black;"><li class="animals"><h1>    Digital Logic Design
+
+</h1></li></a><a href="المنطق الرقمي.list/cours3.html" style="color: black;"><li class="animals"><h1>    المنطق الرقمي بالتفصيل
+
+</h1></li></a><a href="المنطق الرقمي.list/cours4.html" style="color: black;"><li class="animals"><h1>    المنطق الرقمي
+
+</h1></li></a><a href="المنطق الرقمي.list/cours5.html" style="color: black;"><li class="animals"><h1>    Digital Logic Design
+
+</h1></li></a><a href="المنطق الرقمي.list/cours6.html" style="color: black;"><li class="animals"><h1>   Digital Logic
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="خوارزميات.list/cours1.html" style="color: black;"><li class="animals"><h1> تراكيب البيانات والخوارزميات
+
+ 
+</h1></li></a>
+<a href="خوارزميات.list/cours2.html" style="color: black;"><li class="animals"><h1> الخوارزميات وهيكلة البيانات
+
+ 
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+<a href="CCNA & CCNP.list/cours1.html" style="color: black;"><li class="animals"><h1>    Introduction to Networks
+
+
+</h1></li></a>
+
+<a href="CCNA & CCNP.list/cours2.html" style="color: black;"><li class="animals"><h1>    CCNP (642-902 ROUTE)
+
+
+</h1></li></a>
+<a href="CCNA & CCNP.list/cours3.html" style="color: black;"><li class="animals"><h1>    CCNP SWITCH 642-813
+
+
+</h1></li></a>
+<a href="CCNA & CCNP.list/cours4.html" style="color: black;"><li class="animals"><h1>    CCNA 200-120
+
+
+</h1></li></a>
+<a href="CCNA & CCNP.list/cours5.html" style="color: black;"><li class="animals"><h1>  CCNA Routing and Switching 200-120
+  
+
+</h1></li></a>
+<a href="CCNA & CCNP.list/cours6.html" style="color: black;"><li class="animals"><h1>  CCNA Exam 200-120
+  
+
+</h1></li></a>
+<a href="CCNA & CCNP.list/cours7.html" style="color: black;"><li class="animals"><h1>    شهادة CCNA
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+<a href="MCSE.list/cours1.html" style="color: black;"><li class="animals"><h1>    شهادة MCSE
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="N+.list/cours1.html" style="color: black;"><li class="animals"><h1>    أساسيات الشبكات N+
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="MAC.list/cours1.html" style="color: black;"><li class="animals"><h1>   نظام تشغيل ابل ماكنتوش
+
+
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="Linux.list/cours1.html" style="color: black;"><li class="animals"><h1>   Red Hat Certified Engineer - RHCE 7
+
+</h1></li></a>
+<a href="Linux.list/cours2.html" style="color: black;"><li class="animals"><h1>   RHEL7 RedHat - RHCSA
+
+</h1></li></a><a href="Linux.list/cours3.html" style="color: black;"><li class="animals"><h1>   نظام التشغيل لينكس
+
+</h1></li></a><a href="Linux.list/cours4.html" style="color: black;"><li class="animals"><h1>   Fedora Extra
+
+</h1></li></a><a href="Linux.list/cours5.html" style="color: black;"><li class="animals"><h1>   توزيعة فيدورا للمبتدئين
+
+</h1></li></a><a href="Linux.list/cours6.html" style="color: black;"><li class="animals"><h1> CentOS 7 Server
+  
+</h1></li></a><a href="Linux.list/cours7.html" style="color: black;"><li class="animals"><h1> نظام تشغيل ابل ماكنتوش
+  
+</h1></li></a><a href="Linux.list/cours8.html" style="color: black;"><li class="animals"><h1>   Linux for Beginners
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+<a href="Wordpress.list/cours1.html" style="color: black;"><li class="animals"><h1>    احترف نظام WordPress
+
+
+</h1></li></a><a href="Wordpress.list/cours2.html" style="color: black;"><li class="animals"><h1>  WordPress 101 for Beginner Developers
+  
+
+</h1></li></a><a href="Wordpress.list/cours3.html" style="color: black;"><li class="animals"><h1>Create a Premium WordPress Theme
+    
+
+</h1></li></a><a href="Wordpress.list/cours4.html" style="color: black;"><li class="animals"><h1>    تصميم قالب wordpress من الصفر
+
+
+</h1></li></a><a href="Wordpress.list/cours5.html" style="color: black;"><li class="animals"><h1>    تصميم قوالب الووردبريس
+
+
+</h1></li></a><a href="Wordpress.list/cours6.html" style="color: black;"><li class="animals"><h1>    ادارة وحماية المواقع بإستخدام Wordpress
+
+
+</h1></li></a><a href="Wordpress.list/cours7.html" style="color: black;"><li class="animals"><h1>   WordPress for Beginners
+ 
+
+</h1></li></a><a href="Wordpress.list/cours8.html" style="color: black;"><li class="animals"><h1>    تصميم قالب وورد بريس
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="Blogger.list/cours1.html" style="color: black;"><li class="animals"><h1>   تصميم مواقع بلوجر
+ 
+
+</h1></li></a>
+<a href="Blogger.list/cours2.html" style="color: black;"><li class="animals"><h1>   إنشاء مدونة احترافية و متكاملة على البلوجر
+ 
+
+</h1></li></a>
+<a href="Blogger.list/cours3.html" style="color: black;"><li class="animals"><h1>    إنشاء مدونة بلوجر احترافية
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+<a href="SEO.list/cours1.html" style="color: black;"><li class="animals"><h1>   تحسين محركات البحث SEO
+
+
+
+</h1></li></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ol>
+
+
+        </div>
+      </section>
+
+<br>
+<br>
+<br>
+
+<script>
+    // JavaScript code
+function search_animal() {
+	let input = document.getElementById('searchbar').value
+	input=input.toLowerCase();
+	let x = document.getElementsByClassName('animals');
+	
+	for (i = 0; i < x.length; i++) {
+		if (!x[i].innerHTML.toLowerCase().includes(input)) {
+			x[i].style.display="none";
+		}
+		else {
+			x[i].style.display="list-item";				
+		}
+	}
+}
+</script>
+
+<footer>
+  <div class="footer-content">
+      <div class="footer-section about">
+        <img src="img/logo no back no back 5.png" width="130px" alt="">
+        <p> هي منصة عربية توفر كورسات مجانية عالية الجودة في مختلف المجالات والتخصصات تسعى إلى رفع مستوى التعليم الإلكتروني في الوطن العربي </p>
+    
+      </div>
+      <div class="footer-section contact">
+          <h2 class="h22">تواصل معنا</h2>
+          <a href="#"><p style="color: white; font-size: 18px;" class="link2"><i class="fa fa-phone"></i>07-62-61-17-80</p></a>
+          <a href="mailto:upmoliycours@gmail.com"><p style="color: white; font-size: 18px;"><i class="fa fa-envelope"></i>upmoliycours@gmail.com</p></a>
+      </div>
+
+      <div class="footer-section social">
+        <h2 class="h22">Upmoliy</h2>
+        <a href="about.html" >      <p style="color: white; font-size: 18px;">نبذة عن upmoliy</p></a>
+            <a href="search.html" >   <p style="color: white; font-size: 18px;">بحث</p></a>
+     <a href="countact.html" >   <p style="color: white; font-size: 18px;">اتصل بنا</p></a>
+    </div>
+
+      <div class="footer-section social">
+        <h2 class="h22">تابعنا</h2>
+        <a href="https://web.facebook.com/profile.php?id=100085998581083" >      <p style="color: white; font-size: 18px;"> Facebook</p></a>
+            <a href="https://twitter.com/upmoliy" >   <p style="color: white; font-size: 18px;"> Twitter</p></a>
+            <a href="https://www.instagram.com/upmoliy/" >   <p style="color: white; font-size: 18px;"> instagram</p></a>
+            <a href="https://www.youtube.com/@upmoliy/featured" >   <p style="color: white; font-size: 18px;"> Youtube</p></a>
+            <a href="https://www.linkedin.com/company/upmoliy/" >   <p style="color: white; font-size: 18px;"> Linkdin</p></a>
+            <a href="https://www.tiktok.com/@upmoliy" >   <p style="color: white; font-size: 18px;"> tiktok</p></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>جميع الحقوق محفوظة © 2024 upmoliy</p>
+</div>
+</footer>
+
+   
+  </body>
+</html>
